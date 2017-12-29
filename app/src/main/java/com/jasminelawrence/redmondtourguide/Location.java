@@ -71,29 +71,26 @@ public class Location {
     }
 
 
-    public String getmName() {
+    public String getName() {
         return mName;
     }
 
-    public String getmAddress() {
+    public String getAddress() {
         return mAddress;
     }
 
-    public String getmDescription() {
+    public String getDescription() {
         return mDescription;
     }
 
-    public String getmWebsite() {
+    public String getWebsite() {
         return mWebsite;
     }
 
-    public String getmPhoneNumber() {
+    public String getPhoneNumber() {
         return mPhoneNumber;
     }
 
-    public int getmImageResourceId() {
-        return mImageResourceId;
-    }
 
     @Override
     public String toString() {
