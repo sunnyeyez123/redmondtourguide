@@ -2,13 +2,13 @@
     <string name="app_name">Redmond Tour Guide</string>
 
     <string name="Peloton_name">Peloton Apartments</string>
-    <string name="Peloton_address">Peloton</string>
+    <string name="Peloton_address">7435 159th Pl NE</string>
 
-    <string name="Peloton_description">Peloton</string>
+    <string name="Peloton_description">An array of spacious apartment homes located on the Sammamish River Trail</string>
 
-    <string name="Peloton_website">Peloton</string>
+    <string name="Peloton_website">www.pelotonapts.com</string>
 
-    <string name="Peloton_phone_number">Peloton</string>
+    <string name="Peloton_phone_number">(425) 867-0600</string>
 
     <string name="Elevation_name">Elevation Apartments</string>
     <string name="Elevation_address">Peloton</string>
