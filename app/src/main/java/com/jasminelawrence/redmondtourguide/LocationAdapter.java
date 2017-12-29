@@ -68,6 +68,13 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         nameTextView.setText(currentLocation.getName());
 
         // Find the TextView in the list_item.xml layout with the ID version_number
+        TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.description);
+        // Get the version number from the current AndroidFlavor object and
+        // set this text on the number TextView
+        descriptionTextView.setText(currentLocation.getDescription());
+
+
+       /* // Find the TextView in the list_item.xml layout with the ID version_number
         TextView addressTextView = (TextView) listItemView.findViewById(R.id.address);
         // Get the version number from the current AndroidFlavor object and
         // set this text on the number TextView
@@ -80,17 +87,12 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         // set this text on the number TextView
         websiteTextView.setText(currentLocation.getWebsite());
 
-        // Find the TextView in the list_item.xml layout with the ID version_number
-        TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.description);
-        // Get the version number from the current AndroidFlavor object and
-        // set this text on the number TextView
-        descriptionTextView.setText(currentLocation.getDescription());
 
         // Find the TextView in the list_item.xml layout with the ID version_number
         TextView phoneNumberTextView = (TextView) listItemView.findViewById(R.id.phone_number);
         // Get the version number from the current AndroidFlavor object and
         // set this text on the number TextView
-        phoneNumberTextView.setText(currentLocation.getPhoneNumber());
+        phoneNumberTextView.setText(currentLocation.getPhoneNumber());*/
 
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.image);
 

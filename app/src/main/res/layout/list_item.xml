@@ -48,29 +48,6 @@
 
 
 
-        <TextView
-            style="@style/TextColor"
-            android:id="@+id/address"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:text="123 ABC Street" />
-
-        <TextView
-            style="@style/TextColor"
-            android:id="@+id/website"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:text="www.locationwebsite.com" />
-        <TextView
-            style="@style/TextColor"
-            android:id="@+id/phone_number"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:text="(425) - 555 -5555"/>
-
 
 
 

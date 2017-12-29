@@ -2,8 +2,10 @@ package com.jasminelawrence.redmondtourguide;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -66,8 +68,15 @@ public class TestFragment extends Fragment {
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                //TODO: WHAT TO DO WHEN ITEM IS SELECTED?
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+
+                // Opens up clicked location in google maps
+                Location chosenPlace = locations.get(position);
+                String address = chosenPlace.getName() + "," + chosenPlace.getAddress();
+                Uri mapUri = Uri.parse("geo:0,0?q=" + Uri.encode(address));
+                Intent mapIntent = new Intent(Intent.ACTION_VIEW, mapUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(mapIntent);
 
             }
 
