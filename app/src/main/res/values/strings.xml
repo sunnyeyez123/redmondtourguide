@@ -1,6 +1,36 @@
 <resources>
     <string name="app_name">Redmond Tour Guide</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Peloton_name">Peloton Apartments</string>
+    <string name="Peloton_address">Peloton</string>
+
+    <string name="Peloton_description">Peloton</string>
+
+    <string name="Peloton_website">Peloton</string>
+
+    <string name="Peloton_phone_number">Peloton</string>
+
+    <string name="Elevation_name">Elevation Apartments</string>
+    <string name="Elevation_address">Peloton</string>
+
+    <string name="Elevation_description">Peloton</string>
+
+    <string name="Elevation_website">Peloton</string>
+
+    <string name="Elevation_phone_number">Peloton</string>
+
+
+    <string name="ArchStone_name">Archstone Apartments</string>
+    <string name="ArchStone_address">Peloton</string>
+
+    <string name="ArchStone_description">Peloton</string>
+
+    <string name="ArchStone_website">Peloton</string>
+
+    <string name="ArchStone_phone_number">Peloton</string>
+
+
+
+
+
 </resources>
