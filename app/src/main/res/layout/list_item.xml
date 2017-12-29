@@ -25,42 +25,51 @@
         android:orientation="vertical"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
-        android:layout_marginBottom="16dp"
         >
 
         <TextView
+            style="@style/TextColor"
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
             tools:text="Location Name" />
 
         <TextView
+            style="@style/TextColor"
+            android:id="@+id/description"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:layout_marginBottom="8dp"
+            tools:text="This is a breif one liner about this place!" />
+
+
+
+        <TextView
+            style="@style/TextColor"
             android:id="@+id/address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="123 ABC Street" />
 
         <TextView
+            style="@style/TextColor"
             android:id="@+id/website"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="www.locationwebsite.com" />
         <TextView
+            style="@style/TextColor"
             android:id="@+id/phone_number"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="(425) - 555 -5555"/>
-
-        <TextView
-            android:id="@+id/description"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:text="This is a breif one liner about this place!" />
 
 
 
