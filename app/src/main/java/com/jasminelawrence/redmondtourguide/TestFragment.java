@@ -34,7 +34,7 @@ public class TestFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(getString(R.string.Peloton_name), getString(R.string.Peloton_address), getString(R.string.Peloton_description), getString(R.string.Peloton_website), getString(R.string.Peloton_phone_number), R.mipmap.ic_launcher));
+        locations.add(new Location(getString(R.string.Peloton_name), getString(R.string.Peloton_address), getString(R.string.Peloton_description), getString(R.string.Peloton_website), getString(R.string.Peloton_phone_number), R.drawable.peloton));
 
 
         /*// Create a list of words
