@@ -13,6 +13,8 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 /**
  * A simple {@link Fragment} subclass.
  */
@@ -30,6 +32,10 @@ public class TestFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.location_list, container, false);
 
+        // Create a list of locations
+        final ArrayList<Location> locations = new ArrayList<Location>();
+        locations.add(new Location("Peloton", "17235 159th PL NE", "A quaint apartment by the river", "www.peloton.com", "425-555-555", R.mipmap.ic_launcher));
+
 
         /*// Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();
@@ -42,11 +48,11 @@ public class TestFragment extends Fragment {
         words.add(new Word("seven", "kenekaku", R.drawable.number_seven, R.raw.number_seven));
         words.add(new Word("eight", "kawinta", R.drawable.number_eight, R.raw.number_eight));
         words.add(new Word("nine", "wo’e", R.drawable.number_nine, R.raw.number_nine));
-        words.add(new Word("ten", "na’aacha", R.drawable.number_ten, R.raw.number_ten));
+        words.add(new Word("ten", "na’aacha", R.drawable.number_ten, R.raw.number_ten));*/
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
-        WordAdapter adapter = new WordAdapter(getActivity(), words, R.color.category_numbers);
+        LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_live);
 
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
@@ -66,16 +72,11 @@ public class TestFragment extends Fragment {
             }
 
 
-        }
-    });*/
-
-
+        });
 
 
         return rootView;
     }
-
-
 
 
 }
