@@ -10,7 +10,7 @@ public class Location {
     /**
      * Basic information for the location
      */
-    private String mName, mAddress, mDescription, mWebsite, mPhoneNumber;
+    private String mName, mAddress, mDescription ;
 
     /** Image resource ID for the location */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
@@ -25,18 +25,15 @@ public class Location {
      * @param name Name of the location
      * @param address   Address of the location
      * @param description   One line description of the location
-     * @param website   Website URL of the location
-     * @param phoneNumber   Phone Number of the location
      * @param imageResourceId   location of the location's image
      */
 
-    public Location(String name, String address, String description, String website, String phoneNumber, int imageResourceId) {
+    public Location(String name, String address, String description,int imageResourceId) {
 
    mName=name;
    mAddress=address;
    mDescription=description;
-   mPhoneNumber = phoneNumber;
-   mWebsite=website;
+
    mImageResourceId=imageResourceId;
     }
 
@@ -46,17 +43,14 @@ public class Location {
      * @param name Name of the location
      * @param address   Address of the location
      * @param description   One line description of the location
-     * @param website   Website URL of the location
-     * @param phoneNumber   Phone Number of the location
      */
 
-    public Location(String name, String address, String description, String website, String phoneNumber) {
+    public Location(String name, String address, String description ) {
 
         mName=name;
         mAddress=address;
         mDescription=description;
-        mPhoneNumber = phoneNumber;
-        mWebsite=website;
+
     }
 
     /**
@@ -83,23 +77,12 @@ public class Location {
         return mDescription;
     }
 
-    public String getWebsite() {
-        return mWebsite;
-    }
-
-    public String getPhoneNumber() {
-        return mPhoneNumber;
-    }
-
-
     @Override
     public String toString() {
         return "Location{" +
                 "mName='" + mName + '\'' +
                 ", mAddress='" + mAddress + '\'' +
                 ", mDescription='" + mDescription + '\'' +
-                ", mWebsite='" + mWebsite + '\'' +
-                ", mPhoneNumber='" + mPhoneNumber + '\'' +
                 ", mImageResourceId=" + mImageResourceId +
                 '}';
     }

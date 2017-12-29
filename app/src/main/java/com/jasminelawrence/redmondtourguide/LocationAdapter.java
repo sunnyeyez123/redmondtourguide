@@ -72,7 +72,7 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         // Get the version number from the current AndroidFlavor object and
         // set this text on the number TextView
         descriptionTextView.setText(currentLocation.getDescription());
-        
+
 
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.image);
 
