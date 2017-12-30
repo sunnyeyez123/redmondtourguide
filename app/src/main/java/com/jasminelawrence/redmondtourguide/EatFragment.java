@@ -16,10 +16,10 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class WorkFragment extends Fragment {
+public class EatFragment extends Fragment {
 
 
-    public WorkFragment() {
+    public EatFragment() {
         // Required empty public constructor
     }
 
@@ -32,13 +32,14 @@ public class WorkFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(getString(R.string.Microsoft_name), getString(R.string.Microsoft_address), getString(R.string.Microsoft_description), R.drawable.microsoft));
-        locations.add(new Location(getString(R.string.SpaceX_name), getString(R.string.SpaceX_address), getString(R.string.SoaceX_description), R.drawable.spacex));
-        locations.add(new Location(getString(R.string.Facebook_name), getString(R.string.Facebook_address), getString(R.string.Facebook_description), R.drawable.occulus));
+        locations.add(new Location(getString(R.string.BaiTong_name), getString(R.string.BaiTong_address), getString(R.string.BaiTong_description), R.drawable.baitong));
+        locations.add(new Location(getString(R.string.LaIsla_name), getString(R.string.LaIsla_address), getString(R.string.LaIsla_description), R.drawable.laisla));
+        locations.add(new Location(getString(R.string.Matador_name), getString(R.string.Matador_address), getString(R.string.Matador_description), R.drawable.microsoft));
+
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
-        LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_work);
+        LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_eat);
 
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
