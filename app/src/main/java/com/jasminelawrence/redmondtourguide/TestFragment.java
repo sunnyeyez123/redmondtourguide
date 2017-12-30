@@ -37,7 +37,7 @@ public class TestFragment extends Fragment {
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
         locations.add(new Location(getString(R.string.Peloton_name), getString(R.string.Peloton_address), getString(R.string.Peloton_description), R.drawable.peloton));
-       
+
 
         /*// Create a list of words
         final ArrayList<Word> words = new ArrayList<Word>();

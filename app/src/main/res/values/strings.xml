@@ -6,28 +6,40 @@
 
     <string name="Peloton_description">An array of spacious apartment homes located on the Sammamish River Trail</string>
 
-    <string name="Peloton_website">www.pelotonapts.com</string>
 
-    <string name="Peloton_phone_number">(425) 867-0600</string>
 
     <string name="Elevation_name">Elevation Apartments</string>
-    <string name="Elevation_address">Peloton</string>
+    <string name="Elevation_address">17202 NE 85th Pl</string>
 
-    <string name="Elevation_description">Peloton</string>
-
-    <string name="Elevation_website">Peloton</string>
-
-    <string name="Elevation_phone_number">Peloton</string>
+    <string name="Elevation_description">Our Redmond apartments are located just a few minutes from downtown Redmond.</string>
 
 
-    <string name="ArchStone_name">Archstone Apartments</string>
-    <string name="ArchStone_address">Peloton</string>
 
-    <string name="ArchStone_description">Peloton</string>
+    <string name="ArchStone_name">eaves Redmond Campus</string>
+    <string name="ArchStone_address">15606 NE 40th St</string>
 
-    <string name="ArchStone_website">Peloton</string>
+    <string name="ArchStone_description">Unearth a brilliant collection of one-, two- and three-bedroom Redmond apartments at eaves Redmond Campus</string>
 
-    <string name="ArchStone_phone_number">Peloton</string>
+
+
+    <string name="Microsoft_name">Microsoft Corporation</string>
+    <string name="Microsoft_address">1 Microsoft Way</string>
+
+    <string name="Microsoft_description">At Microsoft our mission and values are to help people and businesses throughout the world realize their full potential.</string>
+
+
+
+    <string name="SpaceX_name">SpaceX</string>
+    <string name="SpaceX_address">18390 NE 68th St</string>
+
+    <string name="SoaceX_description">SpaceX designs, manufactures and launches advanced rockets and spacecraft. </string>
+
+
+
+    <string name="Facebook_name">Oculus Research by Facebook</string>
+    <string name="Facebook_address">9845 Willows Rd</string>
+
+    <string name="Facebook_description">Our goal is to make the consumer virtual, augmented, and mixed reality experiences that ship in five to ten years great</string>
 
 
 
