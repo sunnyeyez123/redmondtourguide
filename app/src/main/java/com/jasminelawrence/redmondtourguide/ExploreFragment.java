@@ -39,7 +39,7 @@ public class ExploreFragment extends Fragment {
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
-        LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_eat);
+        LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_explore);
 
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.

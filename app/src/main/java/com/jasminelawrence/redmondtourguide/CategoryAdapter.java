@@ -11,7 +11,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CategoryAdapter extends FragmentPagerAdapter {
 
-    private String tabTitles[] = new String[] { "Live", "Work", "Eat" , "Explore" };
+    private String tabTitles[] = new String[] { "Live", "Eat", "Work" , "Explore" };
 
     public CategoryAdapter(FragmentManager fm) {
         super(fm);
@@ -22,9 +22,9 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         if (position == 0) {
             return new LiveFragment();
         } else if (position == 1){
-            return new WorkFragment();
-        }else if (position == 2){
             return new EatFragment();
+        }else if (position == 2){
+            return new WorkFragment();
         } else {
             return new ExploreFragment();
         }
