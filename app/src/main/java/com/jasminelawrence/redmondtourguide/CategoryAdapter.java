@@ -22,7 +22,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         if (position == 0) {
             return new LiveFragment();
         } else if (position == 1){
-            return new TestFragment();
+            return new WorkFragment();
         }else if (position == 2){
             return new TestFragment();
         } else {
