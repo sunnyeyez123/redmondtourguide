@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Redmond Tour Guide</string>
 
+    <!---  Live -->
+
     <string name="Peloton_name">Peloton Apartments</string>
     <string name="Peloton_address">7435 159th Pl NE</string>
     <string name="Peloton_description">An array of spacious apartment homes located on the Sammamish River Trail</string>
@@ -13,7 +15,7 @@
     <string name="ArchStone_address">15606 NE 40th St</string>
     <string name="ArchStone_description">Unearth a brilliant collection of one-, two- and three-bedroom Redmond apartments at eaves Redmond Campus</string>
 
-
+    <!---  Work -->
 
     <string name="Microsoft_name">Microsoft Corporation</string>
     <string name="Microsoft_address">1 Microsoft Way</string>
@@ -27,18 +29,33 @@
     <string name="Facebook_address">9845 Willows Rd</string>
     <string name="Facebook_description">Our goal is to make the consumer virtual, augmented, and mixed reality experiences that ship in five to ten years great</string>
 
+    <!---  Eat -->
 
     <string name="BaiTong_name">Bai Tong</string>
     <string name="BaiTong_address">14804 NE 24th St</string>
     <string name="BaiTong_description">Big portions of Thai classics provided in a tranquil, elegantly decorated eatery with happy hour.</string>
 
     <string name="LaIsla_name">La Isla</string>
-    <string name="LaIsla_address">16505 Redmond Way, Building B Suite A,</string>
+    <string name="LaIsla_address">16505 Redmond Way, Building B Suite A</string>
     <string name="LaIsla_description">Energetic Puerto Rican joint turning out empanadas, pork &amp; rice bowls, plus muddled cocktails. </string>
 
     <string name="Matador_name">The Matador</string>
     <string name="Matador_address">7824 Leary Way</string>
     <string name="Matador_description"> Local bar chain serving classic &amp; contemporary Mexican dishes, plus cocktails, in a stylish space.</string>
+
+    <!---  Explore -->
+
+    <string name="Marymoor_name">Marymoor Park</string>
+    <string name="Marymoor_address">6046 West Lake Sammamish Pkwy NE</string>
+    <string name="Marymoor_description">King County\'s largest, oldest, and most popular park, with more than 3 million annual visitors coming to roam its 640 acres.</string>
+
+    <string name="Watershed_name">Redmond Watershed</string>
+    <string name="Watershed_address">21760 NE Novelty Hill Rd,</string>
+    <string name="Watershed_description">Sprawling, forested space with trails for horseback riding, hiking &amp; mountain biking. No pets. </string>
+
+    <string name="Samammish_name">Sammamish River Trail</string>
+    <string name="Samammish_address"> </string>
+    <string name="Samammish_description"> The Sammamish River Trail rolls along smoothly through a wide, scenic greenway that\'s home to riverside parks and farms, as well as a growing wine industry.</string>
 
 
 
