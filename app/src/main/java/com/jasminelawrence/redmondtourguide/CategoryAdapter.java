@@ -20,7 +20,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new TestFragment();
+            return new LiveFragment();
         } else if (position == 1){
             return new TestFragment();
         }else if (position == 2){
