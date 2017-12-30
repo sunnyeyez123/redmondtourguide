@@ -8,48 +8,49 @@ package com.jasminelawrence.redmondtourguide;
 public class Location {
 
     /**
+     * Constant value that represents no image was provided for this location
+     */
+    private static final int NO_IMAGE_PROVIDED = -1;
+    /**
      * Basic information for the location
      */
-    private String mName, mAddress, mDescription ;
-
-    /** Image resource ID for the location */
+    private String mName, mAddress, mDescription;
+    /**
+     * Image resource ID for the location
+     */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
-
-
-    /** Constant value that represents no image was provided for this location */
-    private static final int NO_IMAGE_PROVIDED = -1;
 
     /**
      * Create a new Location object with an image.
      *
-     * @param name Name of the location
-     * @param address   Address of the location
-     * @param description   One line description of the location
-     * @param imageResourceId   location of the location's image
+     * @param name            Name of the location
+     * @param address         Address of the location
+     * @param description     One line description of the location
+     * @param imageResourceId location of the location's image
      */
 
-    public Location(String name, String address, String description,int imageResourceId) {
+    public Location(String name, String address, String description, int imageResourceId) {
 
-   mName=name;
-   mAddress=address;
-   mDescription=description;
+        mName = name;
+        mAddress = address;
+        mDescription = description;
 
-   mImageResourceId=imageResourceId;
+        mImageResourceId = imageResourceId;
     }
 
     /**
      * Create a new Location object.
      *
-     * @param name Name of the location
-     * @param address   Address of the location
-     * @param description   One line description of the location
+     * @param name        Name of the location
+     * @param address     Address of the location
+     * @param description One line description of the location
      */
 
-    public Location(String name, String address, String description ) {
+    public Location(String name, String address, String description) {
 
-        mName=name;
-        mAddress=address;
-        mDescription=description;
+        mName = name;
+        mAddress = address;
+        mDescription = description;
 
     }
 

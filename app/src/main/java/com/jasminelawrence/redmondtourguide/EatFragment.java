@@ -37,18 +37,18 @@ public class EatFragment extends Fragment {
         locations.add(new Location(getString(R.string.Matador_name), getString(R.string.Matador_address), getString(R.string.Matador_description), R.drawable.matador));
 
 
-        // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
+        // Create an {@link LocationAdapter}, whose data source is a list of {@link Location}s. The
         // adapter knows how to create list items for each item in the list.
         LocationAdapter adapter = new LocationAdapter(getActivity(), locations, R.color.category_eat);
 
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // word_list.xml file.
+        // location_list.xml file.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
-        // Make the {@link ListView} use the {@link WordAdapter} we created above, so that the
-        // {@link ListView} will display list items for each {@link Word} in the list.
+        // Make the {@link ListView} use the {@link LocationAdapter} we created above, so that the
+        // {@link ListView} will display list items for each {@link Location} in the list.
         listView.setAdapter(adapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {

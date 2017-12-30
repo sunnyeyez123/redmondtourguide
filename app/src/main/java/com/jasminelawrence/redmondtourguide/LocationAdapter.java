@@ -19,13 +19,11 @@ public class LocationAdapter extends ArrayAdapter<Location> {
     private int mBackgroundColor;
 
     /**
-     *
      * The context is used to inflate the layout file, and the list is the data we want
      * to populate into the lists.
      *
-     * @param context The current context. Used to inflate the layout file.
-     * @param location   A List of location objects to display in a list
-     *
+     * @param context  The current context. Used to inflate the layout file.
+     * @param location A List of location objects to display in a list
      */
 
 
@@ -94,7 +92,6 @@ public class LocationAdapter extends ArrayAdapter<Location> {
         int color = ContextCompat.getColor(getContext(), mBackgroundColor);
 
         background.setBackgroundColor(color);
-
 
 
         // Return the whole list item layout (containing 2 TextViews and an ImageView)
