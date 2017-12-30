@@ -32,9 +32,9 @@ public class EatFragment extends Fragment {
 
         // Create a list of locations
         final ArrayList<Location> locations = new ArrayList<Location>();
-        locations.add(new Location(getString(R.string.BaiTong_name), getString(R.string.BaiTong_address), getString(R.string.BaiTong_description), R.drawable.baitong));
-        locations.add(new Location(getString(R.string.LaIsla_name), getString(R.string.LaIsla_address), getString(R.string.LaIsla_description), R.drawable.laisla));
-        locations.add(new Location(getString(R.string.Matador_name), getString(R.string.Matador_address), getString(R.string.Matador_description), R.drawable.microsoft));
+        locations.add(new Location(getString(R.string.BaiTong_name), getString(R.string.BaiTong_address), getString(R.string.BaiTong_description)));
+        locations.add(new Location(getString(R.string.LaIsla_name), getString(R.string.LaIsla_address), getString(R.string.LaIsla_description)));
+        locations.add(new Location(getString(R.string.Matador_name), getString(R.string.Matador_address), getString(R.string.Matador_description)));
 
 
         // Create an {@link WordAdapter}, whose data source is a list of {@link Word}s. The
