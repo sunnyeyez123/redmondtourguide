@@ -26,7 +26,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
         }else if (position == 2){
             return new EatFragment();
         } else {
-            return new TestFragment();
+            return new ExploreFragment();
         }
     }
 
